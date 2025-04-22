@@ -1,4 +1,5 @@
 #recursion example
+#----------------------------------------
 # #addition of two number
 # #logic-1
 # # def add(a, b):
@@ -40,6 +41,8 @@
 #
 # result = divide(10, 2)
 # print("Division is:", result)  # Output: 5
+#------------------------------------------------------------------------------------------------------------------
+
 
 # def odd_numnm(lst):
 #     ans=0
@@ -52,27 +55,6 @@
 # print(res)
 
 
-# def minmaxproblem(lst,minv,maxv):
-#     if len(lst)==1:
-#         maxv=lst[0]
-#         minv=lst[0]
-#         return minv,maxv
-#     elif len(lst)==2:
-#         if lst[0]>lst[1]:
-#             maxv=lst[0]
-#             minv=lst[1]
-#             return maxv,minv
-#         else:
-#             maxv=lst[1]
-#             minv=lst[0]
-#             return maxv,minv
-#     else:
-#         mid=
-        
-
-
-# lst=[1,3,5,6,8,2,-2,4,99]
-# minmaxproblem(lst)    
 
 
 # def commonvalue(lst1,lst2):
