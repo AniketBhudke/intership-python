@@ -55,3 +55,14 @@
 # target = 9           
 # print(twoSumProblem(lst,target))
 
+# Move Zeroes to the End
+# 13.Input: [0, 1, 2, 0, 3, 4]
+# Output: [1, 2, 3, 4, 0, 0]
+
+def movezeroEnd(lst):
+    for i in range(len(lst)):
+        if lst[i]==0:
+            lst.remove(lst[i])
+            lst.append(0)
+    print(lst)
+print(movezeroEnd( [0, 1, 2, 0, 3, 4]))           
