@@ -53,9 +53,9 @@
 #find dupliacte number
 # Input: [3, 1, 3, 4, 2]
 # Output: 3
-def duplicatenumber(lst):
-    if lst==[]:
-        return 0
-    elif:
+# def duplicatenumber(lst):
+#     if lst==[]:
+#         return 0
+#     elif:
         
 
