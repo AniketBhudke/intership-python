@@ -1,8 +1,7 @@
 def missingNum(arr):
         # code here
-        arr.sort()
-        for i in range(min(arr),max(arr)):
-            if i not in arr:
-                return i
-
+    n = len(arr) + 1
+    total_sum = n * (n + 1) // 2
+    actual_sum = sum(arr)
+    return total_sum - actual_sum
 print(missingNum([1,3,4,6,5]))            
