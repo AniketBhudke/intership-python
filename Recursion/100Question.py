@@ -59,10 +59,20 @@
 # 13.Input: [0, 1, 2, 0, 3, 4]
 # Output: [1, 2, 3, 4, 0, 0]
 
-def movezeroEnd(lst):
-    for i in range(len(lst)):
-        if lst[i]==0:
-            lst.remove(lst[i])
-            lst.append(0)
-    print(lst)
-print(movezeroEnd( [0, 1, 2, 0, 3, 4]))           
+# def movezeroEnd(lst):
+#     for i in range(len(lst)):
+#         if lst[i]==0:
+#             lst.remove(lst[i])
+#             lst.append(0)
+#     print(lst)
+# print(movezeroEnd( [0, 1, 2, 0, 3, 4]))           
+
+# # Rotate Array
+# 19.Input: 19.Input: [1, 2, 3, 4, 5, 6, 7], k = 3
+# Output: [5, 6, 7, 1, 2, 3, 4]
+# Output: [5, 6, 7, 1, 2, 3, 4]
+
+# def rotateArray(lst,k):
+#     lst=lst[k+1:]+lst[:k+1]
+#     return lst
+# print(rotateArray([1, 2, 3, 4, 5, 6, 7], k = 3))
