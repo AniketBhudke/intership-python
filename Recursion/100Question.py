@@ -76,3 +76,14 @@
 #     lst=lst[k+1:]+lst[:k+1]
 #     return lst
 # print(rotateArray([1, 2, 3, 4, 5, 6, 7], k = 3))
+
+
+# Find the Middle Element of a Linked List
+def middleElement(lst):
+    if len(lst)%2!=0:
+        mid=len(lst)//2
+        return lst[mid]
+    else:
+        mid=len(lst)//2
+        return lst[mid],lst[mid-1]
+print(middleElement([1,3,4,5,6,7,8,9]))    
